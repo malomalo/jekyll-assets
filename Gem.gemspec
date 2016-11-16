@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   DESC
 
   spec.add_runtime_dependency("rack", "> 1", "< 2")
-  spec.add_runtime_dependency("sprockets", "~> 3.3", "< 3.7")
+  spec.add_runtime_dependency("sprockets", "~> 4.0.0.beta4", "< 4.1")
   spec.add_runtime_dependency("fastimage", ">= 1.8", "~> 2.0")
   spec.add_runtime_dependency("jekyll", ">= 3.0", "~> 3.1")
   spec.add_runtime_dependency("pathutil", ">= 0.8")
